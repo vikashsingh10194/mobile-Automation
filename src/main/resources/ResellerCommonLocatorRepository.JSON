@@ -1,0 +1,46 @@
+{
+   "pages":[
+     {
+         "name":"agentLoginPage",
+         "uiObjects":[
+            {
+               "name":"admin",
+               "type":"options",
+               "locatorType":"xpath",
+               "locatorValue": "//option[@value='S']"
+            },            
+            {
+               "name":"user",
+               "type":"options",
+               "locatorType":"xpath",
+               "locatorValue":"//option[@value='S']"
+            },
+            {
+               "name":"userId",
+               "type":"input",
+               "locatorType":"id",
+               "locatorValue":"loginIdText"
+            },
+            {
+               "name":"deskId",
+               "type":"input",
+               "locatorType":"id",
+               "locatorValue":"deskIdText"
+            },
+            {
+               "name":"password",
+               "type":"input",
+               "locatorType":"id",
+               "locatorValue":"passwordText"
+            },
+            {
+               "name":"login",
+               "type":"button",
+               "locatorType":"id",
+               "locatorValue":"loginValidate"
+            }
+         ]
+      }
+   ]
+}
+      
